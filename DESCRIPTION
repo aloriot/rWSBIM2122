@@ -11,6 +11,7 @@ Description: Companion package for the WSBIM2122 course, distributing
     data and general documentation, and making course administration
     easier.
 Depends:
+   R (>= 3.5.0),
    SummarizedExperiment,
    DESeq2,
    tidyverse
