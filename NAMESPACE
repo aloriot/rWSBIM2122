@@ -2,7 +2,5 @@
 
 export(prepare_shell)
 export(rWSBIM2122version)
-import(DESeq2)
-import(SummarizedExperiment)
-import(tidyverse)
+importFrom(stats,rnorm)
 importFrom(utils,packageVersion)

@@ -1,6 +1,6 @@
 Package: rWSBIM2122
 Title: Companion Package for WSBIM2122 Course
-Version: 0.1.0
+Version: 0.2.0
 Authors@R:
     person(given = "Laurent",
 	   family = "Gatto",
@@ -11,7 +11,8 @@ Description: Companion package for the WSBIM2122 course, distributing
     data and general documentation, and making course administration
     easier.
 Depends:
-   R (>= 3.5.0),
+   R (>= 3.5.0)
+Suggests:
    SummarizedExperiment,
    DESeq2,
    tidyverse

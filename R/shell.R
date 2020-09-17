@@ -20,6 +20,8 @@ make_dna <- function(n = 50, k = 50)
 ##'
 ##' @return Invisibly returns `TRUE`.
 ##'
+##' @importFrom stats rnorm
+##' 
 ##' @export
 ##' @author Laurent Gatto
 prepare_shell <- function(shell_dir = "shell_data", rm_dir = FALSE) {

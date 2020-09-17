@@ -1,7 +1,3 @@
-#' @import SummarizedExperiment
-#' @import DESeq2
-#' @import tidyverse
-
 #' @title Package version
 #'
 #' @importFrom utils packageVersion
