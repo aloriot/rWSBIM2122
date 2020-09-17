@@ -1,3 +1,7 @@
+make_dna <- function(n = 50, k = 50)
+    replicate(n, paste(sample(c("A", "C", "G", "T"), n, replace = TRUE), collapse = ""))
+
+
 ##' A function used for its side effect. It creates the directory and files for
 ##' the shell lesson.
 ##'
@@ -21,6 +25,14 @@ prepare_shell <- function(shell_dir = "shell_data", rm_dir = FALSE) {
         else stop(shell_dir, " exists. Either delete it manuall, set `rm_dir = TRUE`, or use a different name.")
     }
     dir.create(shell_dir)
+    data_dir <- paste0(shell_dir, "/data")
+    dir.create(data_dir)
+    for (i in 1:100) {
+        f <- paste0(data_dir, "/seq_", i, ".fas")
+        s <-
+        h <- paste0("> SEQUENCE ", i, " (", date(), ")")
+        writeLines(c(h, make_dna()), con = f)
+    }
     message(shell_dir, " is ready.")
     invisible(TRUE)
 }
