@@ -4,11 +4,11 @@
 \alias{prepare_shell}
 \title{Prepare Shell data}
 \usage{
-prepare_shell(shell_dir = "shell_data", rm_dir = FALSE)
+prepare_shell(shell_dir = "wsbim2122_data", rm_dir = FALSE)
 }
 \arguments{
 \item{shell_dir}{\code{character(1)} with the name of the shell data directory. Default
-is \code{"shell_data"}.}
+is \code{"wsbim2122_data"}.}
 
 \item{rm_dir}{\code{logical(1)} that defines whether \code{shell_dir} is going to be
 recursively removed. Default is \code{FALSE}.}

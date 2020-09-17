@@ -13,7 +13,7 @@ make_dna <- function(n = 50, k = 50)
 ##' @title Prepare Shell data
 ##'
 ##' @param shell_dir `character(1)` with the name of the shell data directory. Default
-##'     is `"shell_data"`.
+##'     is `"wsbim2122_data"`.
 ##'
 ##' @param rm_dir `logical(1)` that defines whether `shell_dir` is going to be
 ##'     recursively removed. Default is `FALSE`.
@@ -24,7 +24,7 @@ make_dna <- function(n = 50, k = 50)
 ##' 
 ##' @export
 ##' @author Laurent Gatto
-prepare_shell <- function(shell_dir = "shell_data", rm_dir = FALSE) {
+prepare_shell <- function(shell_dir = "wsbim2122_data", rm_dir = FALSE) {
     shell_dir <- shell_dir[1]
     message("Preparing shell data in '", shell_dir, "'.")
     if (dir.exists(shell_dir)) {
