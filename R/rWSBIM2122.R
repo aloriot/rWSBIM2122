@@ -1,7 +1,10 @@
-#' @importFrom utils packageVersion
+#' @import SummarizedExperiment
+#' @import DESeq2
+#' @import tidyverse
 
 #' @title Package version
 #'
+#' @importFrom utils packageVersion
 #' @export
 #' @examples
 #' ## check the package version that is currently installed
