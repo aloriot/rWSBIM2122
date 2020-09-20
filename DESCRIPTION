@@ -1,6 +1,6 @@
 Package: rWSBIM2122
 Title: Companion Package for WSBIM2122 Course
-Version: 0.2.1
+Version: 0.2.2
 Authors@R:
     person(given = "Laurent",
 	   family = "Gatto",
