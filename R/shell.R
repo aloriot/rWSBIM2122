@@ -51,8 +51,11 @@ prepare_shell <- function(shell_dir = "wsbim2122_data", rm_dir = FALSE) {
                       full.names = TRUE, pattern = "deseq2")
     rnaseq_dir <- dir(system.file("extdata", package = "rWSBIM2122"),
                       full.names = TRUE, pattern = "RNAseq_pipeline")
+    count_dir <- dir(system.file("extdata", package = "rWSBIM2122"),
+                      full.names = TRUE, pattern = "count_data")
     stopifnot(file.copy(deseq2_dir, shell_dir, recursive = TRUE))
     stopifnot(file.copy(rnaseq_dir, shell_dir, recursive = TRUE))
+    stopifnot(file.copy(count_dir, shell_dir, recursive = TRUE))    
     message(shell_dir, " is ready.")
     invisible(TRUE)
 }
