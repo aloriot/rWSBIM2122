@@ -1,0 +1,15 @@
+gexp <-
+    structure(list(expression = c(2.7, 0.4, 1.8, 0.8, 1.9, 5.4, 5.7, 2.8,
+                                  2, 4, 3.9, 2.8, 3.1, 2.1, 1.9, 6.4, 7.5,
+                                  3.6, 6.6, 5.4), 
+                   group = structure(c(1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 
+                                       2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L),
+                                     .Label = c("1", "2"),
+                                     class = "factor"),
+                   ID = structure(c(1L, 2L, 3L, 4L, 5L, 6L, 7L, 8L, 9L, 10L,
+                                    1L, 2L, 3L, 4L, 5L, 6L, 7L, 8L, 9L, 10L),
+                                  .Label = c("1", "2", "3", "4", "5", "6", "7",
+                                             "8", "9", "10"),
+                                  class = "factor")),
+              row.names = c(NA, -20L),
+              class = "data.frame")
