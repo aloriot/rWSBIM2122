@@ -1,12 +1,12 @@
 Package: rWSBIM2122
 Title: Companion Package for WSBIM2122 Course
-Version: 0.3.0
+Version: 0.4.0
 Authors@R:
     person(given = "Laurent",
-	   family = "Gatto",
-	   role = c("aut", "cre"),
-	   email = "laurent.gatto@uclouvain.be",
-	   comment = c(ORCID = "0000-0002-1520-2268"))
+           family = "Gatto",
+           role = c("aut", "cre"),
+           email = "laurent.gatto@uclouvain.be",
+           comment = c(ORCID = "0000-0002-1520-2268"))
 Description: Companion package for the WSBIM2122 course, distributing
     data and general documentation, and making course administration
     easier.
@@ -14,6 +14,14 @@ Depends:
    R (>= 3.5.0)
 Suggests:
    SummarizedExperiment,
+   QFeatures,
+   Spectra,
+   clusterProfiler,
+   biomaRt,
+   org.Hs.eg.db,
+   PSMatch,
+   msdata,
+   limma,
    DESeq2,
    tidyverse
 License: GPL-3
